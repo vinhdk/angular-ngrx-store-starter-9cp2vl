@@ -1,0 +1,4 @@
+<input type="number" [(ngModel)]="a" placeholder="A" /><br>
+<input type="number" [(ngModel)]="b" placeholder="B" /><br>
+<input [value]="sum$ | async" placeholder="Sum" /><br>
+<button (click)="calc()">Click</button>
